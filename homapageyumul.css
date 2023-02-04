@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+}
+main{
+	margin:0;
+	padding:0;
+	background:url(gg.jpg);
+	background-size:cover;
+	background-position:cover;
+	font-family:Serif;
+}
+.main{
+    width: 100%;
+    background: black url(gg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+body {
+  color:tomato;
+}  
+
+.navbar{
+	width:1200px;
+	height:75px;
+	margin:auto;
+}
+.icon{
+	width:200px;
+	float:left;
+	height:70px;
+}
+.logo{
+	font-size:50px;
+	font-family:Arial;
+	padding-left:20px;
+	float:left;
+	padding-top:10px;
+	color:blue;
+}
+.menu{
+	width:400px;
+	float:left;
+	height:70px;		
+}
+ul{
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-items:center;	
+}
+ul li{
+	list-style:none;
+	margin-left:33px;
+	margin-top:30px;
+	font-size:20px;
+}
+ul li a{
+	text-decoration:none;
+	color:blue;
+	font-family:Arial;
+	font-weight:bold;
+	transition:0.1s ease-in-out;
+}
+ul li a:hover{
+	color:white;
+}
